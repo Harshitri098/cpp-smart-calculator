@@ -1,16 +1,25 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int a ;
-    cout<<" put the value of a  "<< endl;
+    int a, b, c ;
+    cout<<" enter the value of a : "; 
     cin>> a;
+    cout<<" enter the value of b : ";
+    cin>> b;
+    cout<<" enter the value of c : ";
+    cin>> c;
 
-    if(a % 2 != 0){
-        cout<<" its an odd no.";
-    }else {
-        cout<<" its an even no.";
+    if(a > b && a > c){
+        cout<<" a is greater no.";
+    }else if(b > a && b > c){
+        cout<<" b is greater no.";
+    }else{
+        cout<<" c is greater no.";
     }
-
+    
 return 0;    
 
 }
+    
+
+    
